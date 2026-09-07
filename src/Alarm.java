@@ -9,7 +9,7 @@ public class Alarm implements Runnable{
     public void run(){
 
 //      Alarm song input
-        File alarmSong = new File("src/Mausambi_Drip.wav");
+        File alarmSong = new File("src/lucid dreams - juice wrld [edit audio](MP3_320K).wav");
         try{
             AudioInputStream audioStream = AudioSystem.getAudioInputStream(alarmSong);
             Clip clip = AudioSystem.getClip();
